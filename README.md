@@ -63,7 +63,7 @@ For this project:
 
 ```bash
 # Clone the repository
-git clone https://github.com/YourUsername/sentiment_analysis_twitter.git
+git clone https://github.com/Sholz22/sentiment_analysis_twitter.git
 cd sentiment_analysis_twitter
 
 # Install dependencies
