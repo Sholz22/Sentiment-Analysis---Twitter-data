@@ -63,14 +63,14 @@ For this project:
 
 ```bash
 # Clone the repository
-git clone https://github.com/Sholz22/sentiment_analysis_twitter.git
+git clone https://github.com/Sholz22/Sentiment-Analysis-Twitter-data.git
 cd sentiment_analysis_twitter
 
 # Install dependencies
 pip install -r requirements.txt
 
 # Run the notebook
-Open Sentiment_Analysis_Template.ipynb in Jupyter or VS Code
+Open Sentiment_Analysis_Twitter.ipynb in Jupyter or VS Code
 ```
 
 
