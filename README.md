@@ -78,20 +78,20 @@ Open Sentiment_Analysis_Twitter.ipynb in Jupyter or VS Code
 
 1. **Text Preprocessing:**
 
-   * Remove stopwords
-   * Tokenize using `RegexpTokenizer`
+   * Load and clean the text file by removing stopwords
+   * Tokenize the text into individual words using `RegexpTokenizer`
 2. **Feature Extraction:**
 
-   * TF-IDF vectorization
+   * TF-IDF vectorization: Convert the text sequences into numerical features using **TF-IDF Vectorization**.
 3. **Model Training:**
 
-   * Naive Bayes Classifier
+   * Train a **Multinomial Naive Bayes classifier**
 4. **Evaluation:**
 
-   * Classification Report on test and validation datasets
+   * Classification Report on test and validation datasets to evaluate the performance of the model
 5. **Real-time Prediction:**
 
-   * User-input based sentiment prediction
+   * User-input based sentiment prediction to predict the sentiment of a new user input
 
 
 ## 📊 Evaluation
@@ -105,7 +105,29 @@ The model is evaluated using:
 
 Performance is reported on both the test split and the validation dataset.
 
+**Test Set Performance (20% Hold-out Data)**
 
+Accuracy = **0.89** 
+| Metric    | Negative | Positive |
+| --------- | -------- | -------- |
+| Precision | 0.88     | 0.91     |
+| Recall    | 0.92     | 0.86     |
+| F1-Score  | 0.90     | 0.88     |
+
+**Interpretation:**
+The model performed well on the hold-out test set, achieving 89% accuracy. It was slightly better at detecting Negative sentiments (higher recall), meaning it correctly identified most of the Negative tweets.
+
+**Validation Set Performance (External Data)**
+
+Accuracy = **0.94** 
+| Metric    | Negative | Positive |
+| --------- | -------- | -------- |
+| Precision | 0.93     | 0.95     |
+| Recall    | 0.95     | 0.93     |
+| F1-Score  | 0.94     | 0.94     |
+
+**Interpretation:**
+The model generalized well to completely unseen data, achieving a 94% accuracy on the external validation set. Both Positive and Negative sentiments were predicted with high precision and recall, indicating strong consistency and reliability.
 
 ## 💻 Use Cases
 
