@@ -26,7 +26,6 @@ This project demonstrates:
 * [Limitations and Improvements](#limitations-and-improvements)
 * [License](#license)
 
----
 
 ## 📚 Dataset Description
 
@@ -54,7 +53,8 @@ For this project:
 ├── Sentiment_Analysis_Template.ipynb  
 ├── twitter_training.csv                
 ├── twitter_validation.csv              
-├── requirements.txt                     
+├── requirements.txt   
+├── LICENSE 
 └── README.md                           
 ```
 
